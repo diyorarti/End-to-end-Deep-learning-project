@@ -4,5 +4,7 @@ joblib
 tqdm
 pip-chill
 wincertstore
+torchsummary
+opencv-python
 
 -e .
