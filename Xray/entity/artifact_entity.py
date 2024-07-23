@@ -20,3 +20,9 @@ class ModelTrainingArtifact:
 @dataclass
 class ModelEvaluationArtifact:
     model_accuracy: float
+
+
+@dataclass
+class ModelPusherArtifact:
+    bentoml_model_nae: str
+    bentoml_servie_name: str
