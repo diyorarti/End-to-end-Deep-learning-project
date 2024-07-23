@@ -16,3 +16,7 @@ class DataTransformationArtifact:
 @dataclass
 class ModelTrainingArtifact:
     trained_model_path: str
+
+@dataclass
+class ModelEvaluationArtifact:
+    model_accuracy: float
