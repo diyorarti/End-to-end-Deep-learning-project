@@ -60,3 +60,14 @@ bentoml containerize xray_service:latest -t <ECR_REPOSITORY_URI>:latest
 
 # Push the image to AWS ECR
 docker push <ECR_REPOSITORY_URI>:latest
+
+# Programming Language & Frameworks:
+- Python: Core programming language for the project.
+## Libraries/Packages:
+- Torch (PyTorch): For building and training the deep learning models (CNN architecture).
+- Torchvision: For handling image-related tasks like transformations.
+- Joblib: For saving and loading models.
+- Pillow: For handling image input and processing.
+- NumPy: For numerical operations and data manipulation.
+## Cloud Services:
+- Google Drive (gdown): For downloading the dataset from Google Drive.
