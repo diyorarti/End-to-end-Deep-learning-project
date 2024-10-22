@@ -60,6 +60,7 @@ bentoml containerize xray_service:latest -t <ECR_REPOSITORY_URI>:latest
 
 # Push the image to AWS ECR
 docker push <ECR_REPOSITORY_URI>:latest
+```
 
 # Programming Language & Frameworks:
 - Python: Core programming language for the project.
